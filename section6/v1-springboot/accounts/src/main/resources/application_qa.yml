@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: 'qa'
+
+build:
+  version: '3.0'
+
+accounts:
+  message: "Welcome to fahimmohammed accounts related qa APIs "
+  contactDetails:
+    name: "Fahim - QA Support"
+    email: "fahim00644@gmail.com"
+  onCallSupport:
+    - (+91) 9999999999
+    - (+91) 9999999999

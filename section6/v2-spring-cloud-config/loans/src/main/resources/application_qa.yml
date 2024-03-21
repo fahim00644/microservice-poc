@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: '2.0'
+
+loans:
+  message: "Welcome to fahimmohammed loans related QA APIs "
+  contactDetails:
+    name: "Fahim - QA Support"
+    email: "fahim00644@gmail.com"
+  onCallSupport:
+    - (+91) 9999999999
+    - (+91) 9999999999
