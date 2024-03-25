@@ -1,0 +1,11 @@
+build:
+  version: '3.0'
+
+cards:
+  message: "Welcome to fahimmohammed cards related local APIs "
+  contactDetails:
+    name: "Fahim - Developer"
+    email: "fahim00644@gmail.com"
+  onCallSupport:
+    - (+91) 9999999999
+    - (+91) 9999999999

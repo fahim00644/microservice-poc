@@ -1,0 +1,11 @@
+build:
+  version: '3.0'
+
+accounts:
+  message: "Welcome to fahimmohammed accounts related local APIs "
+  contactDetails:
+    name: "Fahim - Developer"
+    email: "fahim00644@gmail.com"
+  onCallSupport:
+    - (+91) 9999999999
+    - (+91) 9999999999
