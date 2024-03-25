@@ -1,13 +1,8 @@
-spring:
-  config:
-    activate:
-      on-profile: 'qa'
-
 build:
-  version: '3.0'
+  version: '2.0'
 
-accounts:
-  message: "Welcome to fahimmohammed accounts related qa APIs "
+cards:
+  message: "Welcome to fahimmohammed cards related QA APIs "
   contactDetails:
     name: "Fahim - QA Support"
     email: "fahim00644@gmail.com"
