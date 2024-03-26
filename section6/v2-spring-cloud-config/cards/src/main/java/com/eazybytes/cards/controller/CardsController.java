@@ -252,7 +252,7 @@ public class CardsController {
     }
     )
     @GetMapping("/contact-info")
-    public ResponseEntity<String> getContactInfo(){
-        return ResponseEntity.status(HttpStatus.OK).body(cardsContactInfoDto.toString());
+    public ResponseEntity<CardsContactInfoDto> getContactInfo(){
+        return ResponseEntity.status(HttpStatus.OK).body(cardsContactInfoDto);
     }
 }

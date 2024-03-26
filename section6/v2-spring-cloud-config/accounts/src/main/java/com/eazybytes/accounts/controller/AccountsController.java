@@ -194,7 +194,7 @@ public class AccountsController {
     }
     )
     @GetMapping("/contact-info")
-    public ResponseEntity<String> getContactInfo(){
-        return ResponseEntity.status(HttpStatus.OK).body(accountsContactInfoDto.toString());
+    public ResponseEntity<AccountsContactInfoDto> getContactInfo(){
+        return ResponseEntity.status(HttpStatus.OK).body(accountsContactInfoDto);
     }
 }

@@ -2,13 +2,28 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
+    #active: native
+    active: git
   cloud:
     config:
       server:
-        native:
+        #native:
           #search-locations: "classpath:/config"
-          search-locations: "file:///C://Users//sheika//OneDrive - Capgemini//Documents//config"
+          #search-locations: "file:///C://Users//sheika//OneDrive - Capgemini//Documents//config"
+        git:
+          uri: "https://github.com/fahim00644/microservice-config.git"
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+
+encrypt:
+  key: "vrossAa1gCZIDJjiotVVn3Hw3Z5Urkk0"
 
 server:
   port: 8071

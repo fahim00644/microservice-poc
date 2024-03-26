@@ -255,7 +255,7 @@ public class LoansController {
     }
     )
     @GetMapping("/contact-info")
-    public ResponseEntity<String> getContactInfo(){
-        return ResponseEntity.status(HttpStatus.OK).body(loansContactInfoDto.toString());
+    public ResponseEntity<LoansContactInfoDto> getContactInfo(){
+        return ResponseEntity.status(HttpStatus.OK).body(loansContactInfoDto);
     }
 }
